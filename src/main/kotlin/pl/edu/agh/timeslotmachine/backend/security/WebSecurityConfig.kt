@@ -14,6 +14,9 @@ import org.springframework.security.config.http.SessionCreationPolicy
 import org.springframework.security.web.SecurityFilterChain
 import org.springframework.security.web.access.intercept.RequestAuthorizationContext
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter
+import org.springframework.security.web.csrf.CookieCsrfTokenRepository
+import org.springframework.security.web.csrf.CsrfTokenRequestAttributeHandler
+import org.springframework.security.web.util.matcher.AntPathRequestMatcher
 import pl.edu.agh.timeslotmachine.backend.security.jwt.JwtRequestFilter
 import pl.edu.agh.timeslotmachine.backend.user.Role
 

@@ -50,6 +50,9 @@ dependencies {
     // https://mvnrepository.com/artifact/org.mnode.ical4j/ical4j
     // iCal4j
     implementation("org.mnode.ical4j:ical4j:4.0.5")
+
+    // https://mvnrepository.com/artifact/org.assertj/assertj-core
+    testImplementation("org.assertj:assertj-core:3.6.1")
 }
 
 springBoot {
